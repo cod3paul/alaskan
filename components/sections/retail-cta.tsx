@@ -1,12 +1,11 @@
 import Link from "next/link";
 import { retailCtaContent } from "@/content/home";
-import { Section } from "../ui/section";
 import { Container } from "../ui/container";
 import { Button } from "../ui/button";
 
 export function RetailCta() {
   return (
-    <Section className="relative bg-secondary text-primary-foreground">
+    <section className="pt-24 pb-6 relative bg-secondary text-primary-foreground">
       <Container className="text-center space-y-6">
         <h2 className="text-display-lg uppercase">
           {retailCtaContent.heading.text}{" "}
@@ -32,7 +31,7 @@ export function RetailCta() {
           </Button>
         </div>
       </Container>
-    </Section>
+    </section>
   );
 }
 
