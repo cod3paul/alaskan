@@ -19,8 +19,6 @@
     "incremental": true,
     "types": [
       "node",
-      "react/next",
-      "react-dom/next"
     ],
     "baseUrl": ".",
     "paths": {
