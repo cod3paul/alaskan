@@ -7,7 +7,7 @@ export function SiteFooter() {
     const year = new Date().getFullYear();
 
     return (
-        <footer className="bg-secondary text-primary-foreground">
+        <footer className="bg-secondary text-primary-foreground pt-24">
             <Container className="">
                 <div className="grid gap-12 pt-4 md:grid-cols-3 md:gap-16">
                     <div>
