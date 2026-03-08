@@ -32,7 +32,7 @@ export function SiteHeader() {
         <>
             <header
                 className={cn(
-                    "fixed inset-x-0 top-0 z-40 transition-colors duration-300",
+                    "fixed inset-x-0 top-0 z-40",
                     isTransparent ? "bg-transparent" : "bg-secondary backdrop-blur-md"
                 )}
             >
